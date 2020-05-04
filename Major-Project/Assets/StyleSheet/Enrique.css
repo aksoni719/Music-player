@@ -1,0 +1,587 @@
+.scroll-the-playlist{
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height:78vh;
+}
+.scroll-the-playlist::-webkit-scrollbar {
+    display:none;	
+}
+body{
+	background-color:#131313;
+}
+.navdiv{
+	display:flex;
+	flex-wrap:nowrap;
+	background-color:transparent;
+	width:100%;
+	height:4.5vw;
+	color:white;
+}
+.navdiv1{
+	flex:.6;
+}
+.navdiv2{
+	flex:3;
+}
+.navdiv3{
+	margin-top:1.5%;
+	margin-right:6%;
+	border-style:solid;
+	width:18vw;
+	height:4vh;
+	float:right;
+	border-radius:1vw;
+	border-color:#828282;
+	background-color:#828282;
+}
+.navsearchicon{
+	width:5%;
+	margin-top:3%;
+	margin-left:2%;
+}
+.navinputsearch{
+	margin-left:.5%;
+	width:80%;
+	margin-bottom:2%;
+	height:1.5vw;
+	color:black;
+	border-style:none;
+	background-color:transparent;
+	outline:none;
+}
+::placeholder
+{
+	opacity:1;
+	color:black;
+	font-size:bold;
+}
+.navmicicon{
+	margin-top:3%;
+	margin-right:2%;
+	width:6%;
+	float:right;
+}
+.navqueuimagesize{
+	border-radius:50vw;
+	float:left;
+	margin-left:10%;
+	width:28%;
+	margin-top:2%;
+	margin-bottom:1%;
+}
+.navfavourities{
+	font-size:1.5vw;
+	margin-top:8%;
+	margin-left:20%;
+	float:left;
+	font-family:arial;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.navPlayername1{
+	font-size:.9vw;
+	margin-top:7%;
+	margin-left:5%;
+	float:left;
+	font-family:arial;
+    text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.navdivbellicon{
+	float:right;
+	margin-top:2%;
+	margin-right:3%;
+	width:2.6%;
+}
+.navprofileimage{
+	margin-top:.2%;
+	margin-right:2%;
+	float:right;
+	width:6%;
+	border-radius:50%;
+}
+
+
+
+
+
+.queue{
+	margin-right:2%;
+	 float:right; 
+	 width:85%;
+	 background-color:#131313;
+}
+.queuetext{
+	font-size:1.5vw;
+	font-family:arial;
+	color:white;
+}
+
+.queuimagesize{
+	margin-left:2%;
+	margin-top:6%;
+	width:180%;
+}
+.queuelistname{
+	font-size:1vw;
+	margin-left:4vw;
+	color:white;
+	font-family:arial;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.queuedivhearticon{
+	float:right;
+	margin-top:8%;
+	margin-right:8%;
+	width:8%;
+}
+#sectionside{
+  margin-top:1%;
+}
+#queue-container{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+#section{
+	padding:.5%;
+	margin-top:1%;
+	margin-left:2%;
+	float:left;
+	background-color:#131313;
+}
+
+ .box{
+	 display:flex;
+	 margin:1%;
+ }
+
+#sectionimage{
+	width:100%;
+	height:auto;
+}
+.textdiv{
+	background-color:green;
+	
+}
+.one{
+	flex:7;
+	margin:auto;
+	
+}
+.two{
+	flex:10;
+	background-color:;
+}
+
+.buttonalign{
+	background-color:#0077ED;
+	border:black;
+	padding: .5vw 3vw;
+	font-size:1.5vw;
+	margin-top:1%;
+	margin-left:3%;
+	color:white;
+}
+.ptopic{
+	font-size:1.5vw;
+	margin-left:3%;
+    font-family:arial;
+    color:white;
+}
+.followerlist{
+	font-family:arial;
+    color:#828282;
+	float:right;
+	margin-top:-7%;
+	margin-right:2%;
+	font-size:.9vw;
+}
+#palign{
+	margin-top:-3%;
+	margin-left:3%;
+	font-size:1vw;
+	font-family:arial;
+    color:#828282;
+}
+#paraalign{
+	margin-left:3%;
+	margin-right:2%;
+	font-size:1vw;
+	font-family:Times New Roman;
+    color:#828282;
+}
+
+#queuetext{
+	font-size:1.5vw;
+	font-style:bold;
+	font-family:Times New Roman;
+    color:white;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.tracklist{
+	margin-left:3%;
+	margin-top:1%;
+	font-size:.7vw;
+	font-family:arial;
+    color:white;
+}
+.follow{
+	float:right;
+	margin-right:55%;
+	font-size:1.1vw;
+	font-family:arial;
+    color:#828282;
+}
+
+
+.divimageicon{
+	margin-top:4%;
+	margin-right:4%;
+	float:right;
+	width:3.5%;
+}
+.divhearticon{
+	margin-top:4%;
+	margin-right:3%;
+	float:right;
+	width:3.5%;
+}
+.box2{
+	display:flex;
+	background-color:#131313;
+	float:left;
+}
+.one1{
+	flex:.6;
+}
+.two1{
+	flex:1;
+}
+.three1{
+	flex:3;
+}
+
+#imagesize{
+	margin-top:2.5%;
+	width:80%;
+}
+.listnumber{
+	font-size:1vw;
+}
+ .flexcontainer1 {
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+}
+
+.setimage{
+	width:5%;
+} 
+
+ 
+ .queue1{
+	 overflow-y: scroll; 
+	 overflow-x: hidden;
+	margin-right:.5%;
+	float:right; 
+	width:30%;
+	height:100vh;
+}
+.recentthree1{
+	flex:3;
+}
+
+.one1{
+	flex:.6;
+}
+
+
+
+
+
+
+
+
+#recentsection{
+  margin-top:.5%;
+}
+#recent-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:none;
+}
+.recentbox{
+	display:flex;
+	flex-wrap:nowrap;
+	background-color:#131313;
+	margin-top:1%;
+}
+.recentlist{
+	background-color:#131313;
+	margin-right:3%;
+}
+ .recentone{
+	flex:.5;
+	text-align:center;
+	color:black;	
+}
+.recentlistnumber{
+	color:white;
+	font-family:arial;
+	font-size:1vw;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.recentone1{
+	flex:.5;
+}
+.recentimagesize{
+	margin-left:2%;
+	margin-top:6%;
+	width:130%;
+}
+.recentlistname{
+	font-size:.9vw;
+	margin-left:30%;
+	color:white;
+	font-family:arial;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.recentdivhearticon{
+	float:right;
+	margin-top:8%;
+	margin-right:8%;
+	width:6%;
+}
+
+.header-div{
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-color:#131313;
+	float:left;
+	width:65%;
+	height:78vh;
+	margin-top:1%;
+}
+.header-div::-webkit-scrollbar {
+    display:none;	
+}
+#down-section{
+padding:.5%;
+	margin-top:1%;
+	margin-left:2%;
+	float:left;
+	background-color:#131313;	
+}
+.down-box{
+	display:flex;
+	background-color:#0D0D0D;
+	float:left;
+}
+.downlist{
+	background-color:#0D0D0D;
+	margin-right:2%;
+}
+.downone4{
+	flex:.5;
+}
+.downlistnumber{
+	color:white;
+	font-family:arial;	
+}
+
+#downimagesize{
+	margin-top:2.5%;
+	width:40%;
+}
+.downlistnumber{
+	font-size:.9vw;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.downlistname{
+	color:white;
+	font-family:arial;
+	font-size:1vw;
+	text-shadow: .1vw .1vw .2vw #42B3E4;
+}
+.downthree1{
+	flex:3;
+}
+.downdivimageicon{
+	margin-top:3%;
+	margin-right:4%;
+	float:right;
+	width:3%;
+}
+.downdivhearticon{
+	margin-top:3%;
+	margin-right:3%;
+	float:right;
+	width:3%;
+}
+
+
+#down-section > div:hover{
+	transition:.8s;
+	opacity:70%;
+	 background:aqua; 
+}
+#queue-container > div:hover{
+	transition:.8s;
+	opacity:70%;
+	 background:aqua; 
+}
+#recent-container > div:hover{
+	transition:.8s;
+	opacity:70%;
+	 background:aqua; 
+}
+
+
+
+
+
+
+
+
+
+.footerdiv{
+	height:auto;
+	position:fixed;
+    left:0;
+    bottom:0;
+	margin-top:1%;
+	display:flex;
+	flex-wrap:nowrap;
+	background-color:#EAEAEA;
+    width:100%;
+    height:10vh;
+}
+.footerdiv1{
+	flex:2;
+	background-color:#EAEAEA;
+}
+.footerdiv2{
+	flex:5;
+	background-color:#EAEAEA;
+}
+.footerdiv3{
+	background-color:#EAEAEA;
+	flex:2;
+}
+.footerPlayername{
+	font-size:1vw;
+	margin-left:5%;
+	float:left;
+}
+.fotterimage{
+	float:left;
+	margin-left:18.5%;
+	width:25%;
+	margin-top:2%;
+	margin-bottom:1%;
+}
+.heartsongiconalign{
+	float:right;
+	width:5%;
+	padding:1%;
+	margin-top:2%;
+	margin-right:1%;
+}
+.footer-pausealign{
+	width:1.5vw;
+	margin-bottom:.5%;
+	padding:1%;
+}
+
+
+.footer-playalign{
+	width:2.2vw;
+	padding:1%;
+}
+
+.longprogressbar {
+    width:80%;
+    background-color:lightgrey;
+    border-radius:5vw;
+    margin:-.5%;
+    margin-left:10%;
+}
+
+.longprogressbar > div {
+	border-radius:10vw;
+    height:.6vh;
+    width:20%;
+}
+.longprogressbar-align {
+    background-color:grey;
+}
+.progressstop{
+	float:left;
+	width:2%;
+	height:16px;
+	margin-left:17%;
+	margin-top:-1.2%;
+	border-radius:2vw;
+	background-color:grey;
+	position:inherit;
+}
+.soundstop{
+	width:.6vw;
+	height:15%;
+	float:right;
+	margin-right:33%;
+	border-radius:50%; 	
+	margin-top:-2.1%;
+	position:sticky;
+	background-color:#007FFF;
+}
+.expandiconalign{
+	float:right;
+	width:5%;
+	margin-right:15%;
+	margin-top:7.5%;
+}
+.soundiconalign{
+	margin-top:7%;
+	width:8%;
+	padding-left:1%;
+}
+.footer-listiconalign{
+	width:8%;
+	padding-left:1%;
+}
+.soundprogres{
+    width:40%;
+	height:.5vh;
+    background-color:lightgrey;
+    border-radius:5vw;
+	margin-left:30%;
+	margin-top:-5.5%;  
+}
+.soundprogres > div {
+	border-radius:10vw;
+	background-color:#007FFF;
+    height:.5vh;
+    width:40%;
+
+}
+.soundprogress-color{
+    background-color: blue;
+}
+.song-start-time-div{
+float:left;	
+background-color:#EAEAEA;
+margin-left:5%;
+margin-top:-3.5%;
+}
+.song-start-time{
+	font-size:1vw;
+}
+.song-end-time{
+	font-size:1vw;
+}
+.song-end-time-div{
+background-color:#EAEAEA;
+	float:right;
+	margin-top:-3.5%;
+	margin-right:5%;
+}
